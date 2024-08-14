@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+.centered-div {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+  background-color: red;
+}
+.centered-small-div {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+
+  background-color: black;
+}

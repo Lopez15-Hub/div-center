@@ -5,6 +5,7 @@
   text-align: center;
   color: #000;
 }
+
 .container {
   position: relative;
 
@@ -77,6 +78,28 @@
   position: relative;
   display: flex;
 }
+.where-is {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.where-is .gallery-item img {
+  width: 150px;
+  height: 200px;
+}
+.cover img {
+  background-color: red;
+  box-sizing: border-box;
+  border: solid 1px black;
+  position: relative;
+  width: 300px;
+  height: 500px;
+  border-radius: 1rem;
+  background-size: contain;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Añade una transición suave */
+  filter: brightness(0); /* Oscurece la imagen */
+}
 .gallery-item img {
   position: relative;
   width: 300px;
@@ -90,10 +113,9 @@
   box-shadow: 1px 6px 20px 0.5px black;
   transition: ease-in 200ms;
 }
-.footer{
-    text-align: center;
-    padding: 2%;
-    color: #000;
-    font-weight: 400;
-
+.footer {
+  text-align: center;
+  padding: 2%;
+  color: #000;
+  font-weight: 400;
 }
